@@ -30,21 +30,20 @@ html {
 
 .encabezado {
     width: 100%;
-    background: #06113C;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     height: 100px;
     position: fixed;
     top: 0;
-
-
+    background: #1F305E;
 }
 
 .encabezado-titulo {
     color: white;
     padding-left: 0.5rem;
     padding-bottom: 5px;
+    text-decoration: none;
 }
 
 .nav {
@@ -53,6 +52,10 @@ html {
     display: flex;
     grid-area: header;
     padding-bottom: 5px;
+}
+
+.caja-1 {
+    display: inline-block;
 }
 
 .lista-nav {
@@ -64,6 +67,8 @@ html {
     text-decoration: none;
     display: inline;
     padding: 0 4px;
+    transition-property: all;
+    transition-duration: 2s;
 }
 
 .menu-principal {
@@ -111,6 +116,7 @@ html {
     overflow: hidden;
     list-style: none;
     text-align: center;
+    transition: all 2s;
 }
 
 .contacto {
@@ -126,7 +132,8 @@ html {
     display:
         grid;
     grid-area: footer;
-    background-color: rgb(221, 221, 221);
+    background: rgb(31, 48, 94);
+    background: linear-gradient(180deg, rgba(31, 48, 94, 0.9475140397956058) 0%, rgba(255, 255, 255, 1) 95%);
     display: flex;
     justify-content: space-between;
     padding: 5px 5px;
@@ -151,4 +158,45 @@ html {
     font-weight: 100;
     display: flex;
     margin: 0 5px;
+}
+
+/* transformaciones */
+
+.caja:hover {
+    transform: scale(1.5)
+}
+
+.caja-1:hover {
+    transform: scale(0.8);
+}
+
+
+/* media query para celulares */
+
+@media (max-width:450px) {
+
+    .encabezado{
+width: 100%;
+    
+}
+.encabezado-titulo{
+    width: 170px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.lista-nav{
+    font-size: 1.5rem;
+}
+
+.menu-principal{
+    text-align: center;
+    
+} 
+.lista-servicios{
+    display: block;
+}
+.servicios-1{
+    text-align: center;
+}
 }
