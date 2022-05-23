@@ -7,94 +7,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="shortcut icon" href="imagenes/icono.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 
 
 <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg  background-nav align-items-end fs-5 fixed-top ">
+            <div class="container-fluid ">
+                <a class="navbar-brand text-light fs-4" href="#">Electricista Kevin Velazquez</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-pills">
+                        <a class="nav-link active text-light caja-1" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link  text-light caja-1" href="urgencias.html">Urgencias</a>
+                        <a class="nav-link text-light caja-1" href="ersep.html">Ersep</a>
+                        <a class="nav-link text-light caja-1" href="mis-trabajos.html">Mis Trabajos</a>
+                        <a class="nav-link text-light caja-1" href="presupuestos.html">Presupuestos</a>
+                        <a class="nav-link text-light caja-1" href="">Contactos</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="conteiner-grid">
         <div>
             <div>
                 <img class="container-background" src="imagenes/fondo back.jpg" alt="fondo">
             </div>
-            <header class="encabezado">
-                <div class="encabezado-titulo">
-                    <h1>
-                        <a class="encabezado-titulo" href="index.html">Electricista
-                            
-                            Kevin Velazquez</a>
-                    </h1>
-                </div>
-
-                <nav class="nav">
-                    <ul>
-                        <div class="caja-1">
-                            <li class="lista-nav caja"><a class="lista-nav caja" href="index.html">Inicio</a></li>
-                        </div>
-                        <div class="caja-1">
-                            <li class="lista-nav"><a class="lista-nav" href="urgencias.html">Urgencias </a></li>
-                        </div>
-                        <div class="caja-1">
-                            <li class="lista-nav"><a class="lista-nav" href="ersep.html">Ersep </a></li>
-                        </div>
-                        <div class="caja-1">
-                            <li class="lista-nav"><a class="lista-nav" href="mis-trabajos.html">Mis trabajos </a></li>
-                        </div>
-                        <div class="caja-1">
-                            <li class="lista-nav"><a class="lista-nav" href="presupuestos.html">Presupuestos </a></li>
-                        </div>
-                        <div class="caja-1">
-                            <li class="lista-nav"><a class="lista-nav" href="#contacto">Contacto</a></li>
-                        </div>
-
-                    </ul>
-                </nav>
-
-            </header>
             <main class="menu-principal">
-                <div class="subtitulo">
-                    <h2>Tu Electricista De Confianza</h2>
+                <div>
+                    <h2 class="subtitulo">Tu Electricista De Confianza</h2>
                 </div>
-
-
-                <div class="titulo-menu">
-                    <h3>Servicios</h3>
+                <div>
+                    <h3 class="titulo-menu">Servicios</h3>
                 </div>
                 <section class="servicios">
                     <ul class="lista-servicios">
                         <div class="servicios-1 caja">
                             <ol class="servicios-1">
-                                <li><h4>Certificaciones</h4></li>
+                                <li>
+                                    <h4 class="fs-1">Certificaciones</h4>
+                                </li>
                                 <li>
                                     <h5>Descripcion del servicio</h5>
                                 </li>
-                                <div >
-                                    <img class="img" src="imagenes/planos.jpg" alt="Certificaciones" >
+                                <div>
+                                    <img class="img" src="imagenes/planos.jpg" alt="Certificaciones">
                                     </li>
                                 </div>
                             </ol>
                         </div>
                         <div class="servicios-1 caja">
                             <ol class="servicios-1">
-                                <li><h4>Instalaciones nuevas</h4></li>
                                 <li>
-                                   <h5> Descripcion del producto </h5>
+                                    <h4 class="fs-1">Instalaciones nuevas</h4>
                                 </li>
-                                <div >
-                                    <img class="img" src="imagenes/casa-nueva.jpg" alt="Ins-Nuevas" >
+                                <li>
+                                    <h5> Descripcion del producto </h5>
+                                </li>
+                                <div>
+                                    <img class="img" src="imagenes/casa-nueva.jpg" alt="Ins-Nuevas">
                                 </div>
                             </ol>
 
                         </div>
                         <div class="servicios-1 caja">
                             <ol class="servicios-1">
-                                <li><h4>Instalaciones existentes</h4></li>
+                                <li>
+                                    <h4 class="fs-1">Instalaciones existentes</h4>
+                                </li>
                                 <li>
                                     <h5>Descripcion del servicio</h5>
                                 </li>
-                                <div >
-                                    <img class="img" src="imagenes/cableando.jpg" alt="ins-existentes" >
+                                <div>
+                                    <img class="img" src="imagenes/cableando.jpg" alt="ins-existentes">
                                 </div>
                             </ol>
 
@@ -103,8 +98,8 @@
             </main>
             </section>
 
-            <section class="contacto">
-                <h4>Contacto</h4>
+            <section class="contacto" >
+                <h4 class="contacto">Contacto</h4>
                 <div>
                     <form action=""></form>
                 </div>
@@ -152,7 +147,12 @@
         </footer>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
