@@ -5,4 +5,5 @@
   <li>Apellido: Velazquez</li>
   <li>Comision: 37000</li>
   <li>Tutora: Iara Docampo</li>
+  <li>Profesora: Sofia Lagoa</li>
 </ul>
