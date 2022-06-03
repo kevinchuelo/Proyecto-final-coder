@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "<h1>Proyecto Final Coder House</h1> <br> <ul font-size: 10px>   <li>Nombre: Kevin </li>   <li>Apellido: Velazquez</li>   <li>Comision: 37000</li>   <li>Tutora: Iara Docampo</li> </ul>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinchuelo/Proyecto-final-coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinchuelo/Proyecto-final-coder/issues"
+  },
+  "homepage": "https://github.com/kevinchuelo/Proyecto-final-coder#readme"
+}
