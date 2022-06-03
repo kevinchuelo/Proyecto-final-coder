@@ -138,6 +138,9 @@ html {
     display: flex;
     margin: 0 5px;
 }
+.lista-desplegable{
+    display: none;
+}
 
 /* transformaciones */
 
@@ -198,8 +201,15 @@ width: 100%;
     height:30px;
 }
 .preguntas{
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
+.lista-desplegable{
+    display: block;
+}
+.lista-fija {
+    display: none;
+}
+
 }
 /* media query para tablets */
 
@@ -240,7 +250,13 @@ width: 100%;
             height:30px;
         }
         .preguntas{
-            font-size: 0.7rem;
+            font-size: 1rem;
+        }
+        .lista-desplegable{
+            display: block;
+        }
+        .lista-fija {
+            display: none;
         }
 
 }
