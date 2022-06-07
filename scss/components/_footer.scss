@@ -1,0 +1,36 @@
+@import '../base/extends';
+@import '../base/mixin';
+@import '../base/listas';
+@import '../base/variables';
+.pie-de-pagina {
+    display:
+        grid;
+    grid-area: footer;
+    background: rgb(31, 48, 94);
+    background: linear-gradient(180deg, rgba(31, 48, 94, 0.9475140397956058) 0%, rgba(255, 255, 255, 1) 95%);
+
+    @include flex (flex, space-between);
+    padding: 5px 5px;
+    position: bottom 0;
+}
+.logos {
+    margin: 0.5rem 0;
+    display: flex;
+    height: 40px;
+    padding: 0 4px;
+    width: 40px;
+    height: auto;
+}
+.preguntas {
+    text-decoration: none;
+    color: black;
+}
+.menu-navegable-fin {
+    font-size: 1rem;
+    font-weight: 100;
+    display: flex;
+    margin: 0 5px;
+}
+.lista-desplegable{
+    display: none;
+}

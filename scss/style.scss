@@ -1,3 +1,22 @@
-@import '../scss/base/estilos-generales'
+/*Base*/
+@import '../scss/base/estilos-generales';
+@import  '../scss/base/extends';
+@import '../scss/base/listas';
+@import '../scss/base/variables';
+/*Components*/
+@import '../scss/components/footer';
+@import '../scss/components/header';
+@import '../scss/components/contacto';
+@import '../scss/components/transformaciones';
+@import '../scss/components/ersep';
+@import '../scss/components/index';
+/*@import '../scss/components/media-query';*/
+@import '../scss/components/mis-trabajos';
+@import '../scss/components/presupuestos';
+@import '../scss/components/urgencias';
+
+
+/*______________________________________*/
+
 
 

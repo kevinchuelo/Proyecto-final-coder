@@ -1,0 +1,11 @@
+@import '../base/extends';
+@import '../base/mixin';
+@import '../base/listas';
+@import '../base/variables';
+.caja:hover {
+    transform: scale(1.5)
+}
+
+.caja-1:hover {
+    transform: scale(0.8);
+}
