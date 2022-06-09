@@ -2,3 +2,13 @@
 @import '../base/mixin';
 @import '../base/listas';
 @import '../base/variables';
+
+.contacto, %flex-center {
+    display: grid;
+    grid-area: contacto;
+    height: 500px;
+    font-size: 5rem;
+    color: white;
+
+    
+}

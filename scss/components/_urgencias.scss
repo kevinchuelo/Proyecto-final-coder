@@ -4,9 +4,8 @@
 @import '../base/variables';
 .container-titulo {
     position: relative;
-    display: inline-block;
 }
-.titulo-urgencias {
+.titulo-secciones {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,7 +21,4 @@
 font-size: 30px;
 margin-bottom: 50px;
 margin-top: 50px;
-}
-.carrusel { 
-    width: 80%;
 }

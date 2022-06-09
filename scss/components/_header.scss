@@ -3,5 +3,5 @@
     height: 70px;      
 }
 .caja-1 {
-    display: inline-block;
+    display: nth($display, 4);
 }

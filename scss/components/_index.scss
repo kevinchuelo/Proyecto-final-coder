@@ -4,7 +4,7 @@
 @import '../base/variables';
 .conteiner-grid {
     padding-top: 80px ;
-    display: grid;
+    display:nth($display,6);
     grid-template-areas: "header header header"
         "section section section"
         "contacto contacto contacto"
@@ -17,50 +17,45 @@
 .container-background {
     position: fixed;
     top: 0;
-    width: 100%;
-    height: 100%;
+   @include size (100%, 100%);
     z-index: -1;
 
 }
-.menu-principal {
+.menu-principal, %flex-center {
     margin-top: 8rem;
-    display: grid;
+    display: nth($display,6);
     grid-area: section;
     background-size: cover;
-    width: 100%;
-    height: 1000px;
-    @extend %flex-center;
-    display: block;
+    @include size (100%, 1000px);
+    display: nth($display, 3 );
 }
-.subtitulo {
+.subtitulo, %flex-center  {
     margin-top: 3rem;
     padding: 2rem;
     font-size: 5rem;
-    @extend %flex-center;
+    
 }
-.titulo-menu {
+.titulo-menu, %flex-center  {
     margin: 4rem 0rem;
     font-size: 5rem;
     color: white;
-    @extend %flex-center;
+    
 }
-.servicios {
-      display: block;
-      @extend %flex-center;
+.servicios, %flex-center  {
+      display: nth($display,3);
+      
 }
 .lista-servicios {
     @include flex (flex, space-around);
 }
 .servicios-1 {
-    height: 400px;
-    width: 40rem;
+    @include size (400px, 40rem);
     overflow: hidden;
     list-style: none;
     text-align: center;
     transition: all 2s;
 }
 .img{
-    width: 400px;
-    height:auto;
+    @include size (400px, auto);
     border-radius: 3%;
 }

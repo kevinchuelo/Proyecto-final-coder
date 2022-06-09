@@ -1,11 +1,5 @@
 /*Base*/
 @import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&display=swap");
-.servicios, .titulo-menu, .subtitulo, .menu-principal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -37,21 +31,9 @@ html {
   z-index: -1;
 }
 
-.servicios, .titulo-menu, .subtitulo, .menu-principal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /*Components*/
-.servicios, .titulo-menu, .subtitulo, .menu-principal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .pie-de-pagina {
-  display: grid;
+  display: nth none, inline, block, inline-block, flex, grid, 6;
   grid-area: footer;
   background: rgb(31, 48, 94);
   background: linear-gradient(180deg, rgba(31, 48, 94, 0.9475140398) 0%, rgb(255, 255, 255) 95%);
@@ -64,9 +46,9 @@ html {
 .logos {
   margin: 0.5rem 0;
   display: flex;
+  width: 40px;
   height: 40px;
   padding: 0 4px;
-  width: 40px;
   height: auto;
 }
 
@@ -95,16 +77,12 @@ html {
   display: inline-block;
 }
 
-.servicios, .titulo-menu, .subtitulo, .menu-principal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.servicios, .titulo-menu, .subtitulo, .menu-principal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.contacto {
+  display: grid;
+  grid-area: contacto;
+  height: 500px;
+  font-size: 5rem;
+  color: white;
 }
 
 .caja:hover {
@@ -113,18 +91,6 @@ html {
 
 .caja-1:hover {
   transform: scale(0.8);
-}
-
-.servicios, .titulo-menu, .subtitulo, .menu-principal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.servicios, .titulo-menu, .subtitulo, .menu-principal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .conteiner-grid {
@@ -174,8 +140,8 @@ html {
 }
 
 .servicios-1 {
-  height: 400px;
-  width: 40rem;
+  width: 400px;
+  height: 40rem;
   overflow: hidden;
   list-style: none;
   text-align: center;
@@ -188,31 +154,137 @@ html {
   border-radius: 3%;
 }
 
-/*@import '../scss/components/media-query';*/
-.menu-principal, .subtitulo, .titulo-menu, .servicios {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 450px) {
+  .encabezado {
+    width: 100%;
+  }
+
+  .encabezado-titulo {
+    width: 170px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .lista-nav {
+    font-size: 1.5rem;
+  }
+
+  .menu-principal {
+    text-align: center;
+  }
+
+  .lista-servicios {
+    display: block;
+  }
+
+  .servicios-1 {
+    display: flex;
+    justify-items: center;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .subtitulo {
+    font-size: 2rem;
+    width: 400px;
+  }
+
+  .titulo-menu {
+    font-size: 4rem;
+    margin: 2rem 0;
+  }
+
+  .img {
+    width: 300px;
+    height: auto;
+  }
+
+  .logos {
+    width: 30px;
+    height: 30px;
+  }
+
+  .preguntas {
+    font-size: 1rem;
+  }
+
+  .lista-desplegable {
+    display: block;
+  }
+
+  .lista-fija {
+    display: none;
+  }
+}
+/* media query para tablets */
+@media (min-width: 451px) and (max-width: 700px) {
+  .encabezado {
+    width: 100%;
+  }
+
+  .encabezado-titulo {
+    width: 170px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .lista-nav {
+    font-size: 1.5rem;
+  }
+
+  .menu-principal {
+    text-align: center;
+  }
+
+  .subtitulo {
+    width: 600px;
+  }
+
+  .lista-servicios {
+    display: block;
+  }
+
+  .servicios-1 {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .logos {
+    width: 30px;
+    height: 30px;
+  }
+
+  .preguntas {
+    font-size: 1rem;
+  }
+
+  .lista-desplegable {
+    display: block;
+  }
+
+  .lista-fija {
+    display: none;
+  }
+}
+.container-titulo {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
 }
 
-.menu-principal, .subtitulo, .titulo-menu, .servicios {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.menu-principal, .subtitulo, .titulo-menu, .servicios {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.titulo-secciones {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
 }
 
 .container-titulo {
   position: relative;
-  display: inline-block;
 }
 
-.titulo-urgencias {
+.titulo-secciones {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -230,10 +302,6 @@ html {
   font-size: 30px;
   margin-bottom: 50px;
   margin-top: 50px;
-}
-
-.carrusel {
-  width: 80%;
 }
 
 /*______________________________________*/

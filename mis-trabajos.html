@@ -38,10 +38,48 @@
                 </div>
             </nav>
         </header>
-        <div class="conteiner-grid">
+        <main>
             <div>
                 <div>
-                    <img class="container-background" src="imagenes/fondo back.jpg" alt="fondo">
+                    <div class="container-titulo text-center  row">
+                        <img class="col-11 rounded img-fluid" src="imagenes/cajas-en-pared.jpg" alt="fondo-titulo">
+                        <h1 class="titulo-secciones col-md-8">Mis Trabajos</h1>
+                    </div>
+                    <div>
+                        <img class="background-fijo" src="imagenes/texture-1687319_1920 (1).jpg" alt="fondo">
+                    </div>
+                </div>
+                <section class="row">
+                    <div class="carrusel justify-content-center col-9">
+                        <div id="carouselExampleControls " class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imagenes/arreglazndo-tomas.jpg" class="d-block w-100" alt="tomas">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imagenes/cableando.jpg" class="d-block w-100" alt="cableando">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imagenes/casa-nueva.jpg" class="d-block w-100" alt="casa-nueva">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden"></span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <div>
+                    <a href="https://wa.me/+542974136816/?text=Necesito%20Un%20Electricista" class="whatsapp"
+                        target="_blank"> <img class="whatsapp whatsapp-icon" src="imagenes/whatsapp.png"
+                            alt="logo-whatsapp"></a>
                 </div>
                 <section class="contacto">
                     <h4 class="contacto">Contacto</h4>
@@ -50,65 +88,62 @@
                     </div>
                 </section>
             </div>
-            <main>
-                <div>
-                    <a href="https://wa.me/+542974136816/?text=Necesito%20Un%20Electricista" class="whatsapp" target="_blank"> <img class="whatsapp whatsapp-icon" src="imagenes/whatsapp.png" alt="logo-whatsapp"></a>
-                </div>
-            </main>
+        </main>
 
 
-            <footer class="pie-de-pagina">
-                <!-- <div class="conatainer-footer"> -->
-                <!-- logo -->
-                <div><img class="logos" src="imagenes/logo footer.png" alt="logo"></div>
-                <!--redes-->
-                <div><a href=""><img class="logos" src="imagenes/whatsapp.png" alt="logo-whatsapp"></a>
-                </div>
-                <div><a href=""><img class="logos" src="imagenes/facebook.png" alt="logo-facebook"></a></div>
-                <div class="menu-navegable-fin">
-                    <ul>
-                        <li>
-                            <!--link que me lleve siempre a seccion metodos de pago en la pestaña presupuestos-->
-                            <a class="preguntas" href="presupuestos.html">Metodos de pago</a>
-                        </li>
-                        <li class="lista-desplegable">
-                            <div class="dropdown">
-                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Preguntas Frecuentes
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                  <a class="dropdown-item" href="#">¿Que es un certificado?</a>
-                                  <a class="dropdown-item" href="#">¿Como coordino una visita?</a>
-                                  <a class="dropdown-item" href="#">¿Tengo una urgencia como me comunico?</a>
-                                  <a class="dropdown-item" href="#">¿Que necesito para generar mi certificado?</a>
-                                  <a class="dropdown-item" href="#">¿Diferencia entre instalacion existente y nueva?</a>
-                                </div>
-                              </div>
-                        </li>
-                        <li class="preguntas lista-fija">
-                            Preguntas frecuentes
-                            <ol class="preguntas">
-                                <!--preguntas-->
-                                <li>¿Que es un certificado?</li>
-                                <li>¿Como coordino una visita?</li>
-                                <li>¿Tengo una urgencia como me comunico?</li>
-                                <li>¿Que necesito para generar mi certificado?</li>
-                                <li>¿Diferencia entre instalacion existente y nueva?</li>
-                            </ol>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li>
-                            <a class="preguntas" href="">Empresas</a>
-                        </li>
-                        <li>
-                            <a class="preguntas" href="">Ayuda</a>
-                        </li>
-                    </ul>
-                </div>
-            </footer>
+        <footer class="pie-de-pagina">
+            <!-- <div class="conatainer-footer"> -->
+            <!-- logo -->
+            <div><img class="logos" src="imagenes/logo footer.png" alt="logo"></div>
+            <!--redes-->
+            <div><a href=""><img class="logos" src="imagenes/whatsapp.png" alt="logo-whatsapp"></a>
+            </div>
+            <div><a href=""><img class="logos" src="imagenes/facebook.png" alt="logo-facebook"></a></div>
+            <div class="menu-navegable-fin">
+                <ul>
+                    <li>
+                        <!--link que me lleve siempre a seccion metodos de pago en la pestaña presupuestos-->
+                        <a class="preguntas" href="presupuestos.html">Metodos de pago</a>
+                    </li>
+                    <li class="lista-desplegable">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Preguntas Frecuentes
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">¿Que es un certificado?</a>
+                                <a class="dropdown-item" href="#">¿Como coordino una visita?</a>
+                                <a class="dropdown-item" href="#">¿Tengo una urgencia como me comunico?</a>
+                                <a class="dropdown-item" href="#">¿Que necesito para generar mi certificado?</a>
+                                <a class="dropdown-item" href="#">¿Diferencia entre instalacion existente y nueva?</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="preguntas lista-fija">
+                        Preguntas frecuentes
+                        <ol class="preguntas">
+                            <!--preguntas-->
+                            <li>¿Que es un certificado?</li>
+                            <li>¿Como coordino una visita?</li>
+                            <li>¿Tengo una urgencia como me comunico?</li>
+                            <li>¿Que necesito para generar mi certificado?</li>
+                            <li>¿Diferencia entre instalacion existente y nueva?</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a class="preguntas" href="">Empresas</a>
+                    </li>
+                    <li>
+                        <a class="preguntas" href="">Ayuda</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
