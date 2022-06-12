@@ -2,3 +2,15 @@
 @import '../base/mixin';
 @import '../base/listas';
 @import '../base/variables';
+.presupuestos {
+    color: white;
+}
+.subtitulo-1 {
+    font-size: 5rem;
+    color: white; 
+}
+.main-presupuesto{
+    padding-top: 10px;
+    height: 800px;
+    color: white;
+}

@@ -31,6 +31,18 @@ html {
   z-index: -1;
 }
 
+.container-titulo {
+  position: relative;
+}
+
+.titulo-secciones {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+}
+
 /*Components*/
 .pie-de-pagina {
   display: nth none, inline, block, inline-block, flex, grid, 6;
@@ -80,9 +92,13 @@ html {
 .contacto {
   display: grid;
   grid-area: contacto;
-  height: 500px;
   font-size: 5rem;
   color: white;
+}
+
+.formulario {
+  color: white;
+  height: 500px;
 }
 
 .caja:hover {
@@ -91,6 +107,23 @@ html {
 
 .caja-1:hover {
   transform: scale(0.8);
+}
+
+.info {
+  padding: 0 25px;
+  font-size: 15px;
+  margin-top: 50px;
+  color: white;
+}
+
+.title-info {
+  font-size: 30px;
+}
+
+.caja-info {
+  border: solid 1px rgba(0, 0, 0, 0.616);
+  border-radius: 10px;
+  background-color: rgba(255, 250, 118, 0.6431372549);
 }
 
 .conteiner-grid {
@@ -280,16 +313,19 @@ html {
   font-size: 100px;
 }
 
-.container-titulo {
-  position: relative;
+.presupuestos {
+  color: white;
 }
 
-.titulo-secciones {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 100px;
+.subtitulo-1 {
+  font-size: 5rem;
+  color: white;
+}
+
+.main-presupuesto {
+  padding-top: 10px;
+  height: 800px;
+  color: white;
 }
 
 .llamado {

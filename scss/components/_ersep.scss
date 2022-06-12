@@ -3,3 +3,19 @@
 @import '../base/listas';
 @import '../base/variables';
 
+
+.info {
+    
+    padding: 0 25px;
+    font-size: 15px;
+    margin-top: 50px;
+    color:white;
+}
+.title-info {
+    font-size: 30px;
+}
+.caja-info { 
+    border: solid 1px rgba(0, 0, 0, 0.616);
+border-radius: 10px; 
+    background-color:#fffa76a4 ;
+}
