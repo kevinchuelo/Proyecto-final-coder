@@ -2,17 +2,7 @@
 @import '../base/mixin';
 @import '../base/listas';
 @import '../base/variables';
-.conteiner-grid {
-    padding-top: 80px ;
-    display:nth($display,6);
-    grid-template-areas: "header header header"
-        "section section section"
-        "contacto contacto contacto"
-        "footer footer footer"
-    ;
-    transition: all 2s;
 
-}
 
 .container-background {
     position: fixed;
@@ -23,8 +13,6 @@
 }
 .menu-principal, %flex-center {
     margin-top: 8rem;
-    display: nth($display,6);
-    grid-area: section;
     background-size: cover;
     @include size (100%, 1000px);
     display: nth($display, 3 );

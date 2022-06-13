@@ -1,5 +1,7 @@
 /*Base*/
 @import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +15,8 @@ html {
 .whatsapp {
   position: fixed;
   width: 60px;
-  bottom: 40px;
-  right: 40px;
+  bottom: 20px;
+  right: 20px;
   border-radius: 50px;
   z-index: 100;
 }
@@ -43,12 +45,25 @@ html {
   font-size: 100px;
 }
 
+.container-body {
+  padding-top: 80px;
+  transition: all 2s;
+  position: relative;
+  padding-bottom: 90px;
+}
+
+.carrusel {
+  width: 100%;
+  height: auto;
+}
+
 /*Components*/
 .pie-de-pagina {
-  display: nth none, inline, block, inline-block, flex, grid, 6;
-  grid-area: footer;
   background: rgb(31, 48, 94);
   background: linear-gradient(180deg, rgba(31, 48, 94, 0.9475140398) 0%, rgb(255, 255, 255) 95%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 5px 5px;
@@ -58,8 +73,8 @@ html {
 .logos {
   margin: 0.5rem 0;
   display: flex;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   padding: 0 4px;
   height: auto;
 }
@@ -124,13 +139,13 @@ html {
   border: solid 1px rgba(0, 0, 0, 0.616);
   border-radius: 10px;
   background-color: rgba(255, 250, 118, 0.6431372549);
+  padding: 10px 10px;
+  margin: 10px 0;
 }
 
-.conteiner-grid {
-  padding-top: 80px;
-  display: grid;
-  grid-template-areas: "header header header" "section section section" "contacto contacto contacto" "footer footer footer";
-  transition: all 2s;
+.img.ersep {
+  display: flex;
+  justify-items: center;
 }
 
 .container-background {
@@ -143,8 +158,6 @@ html {
 
 .menu-principal {
   margin-top: 8rem;
-  display: grid;
-  grid-area: section;
   background-size: cover;
   width: 100%;
   height: 1000px;
@@ -299,6 +312,61 @@ html {
     display: none;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
+
+.background-fijo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.container-titulo {
+  position: relative;
+}
+
+.titulo-secciones {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+}
+
+.container-body {
+  padding-top: 80px;
+  transition: all 2s;
+  position: relative;
+  padding-bottom: 90px;
+}
+
+.carrusel {
+  width: 100%;
+  height: auto;
+}
+
 .container-titulo {
   position: relative;
   display: inline-block;
@@ -311,6 +379,10 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 100px;
+}
+
+.carrusel-mt {
+  margin-top: 20px;
 }
 
 .presupuestos {
@@ -326,6 +398,61 @@ html {
   padding-top: 10px;
   height: 800px;
   color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
+
+.background-fijo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.container-titulo {
+  position: relative;
+}
+
+.titulo-secciones {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+}
+
+.container-body {
+  padding-top: 80px;
+  transition: all 2s;
+  position: relative;
+  padding-bottom: 90px;
+}
+
+.carrusel {
+  width: 100%;
+  height: auto;
 }
 
 .llamado {

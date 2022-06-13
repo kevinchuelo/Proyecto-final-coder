@@ -2,6 +2,8 @@
 @import '../base/mixin';
 @import '../base/listas';
 @import '../base/variables';
+@import '../base/estilos-generales';
+
 .container-titulo{
     position: relative;
     display: inline-block;
@@ -14,7 +16,6 @@
     transform: translate(-50%, -50%);
     font-size: 100px;
 }
-// .carrusel { 
-//     width: 80%;
-//     overflow: hidden;
-// }
+.carrusel-mt {
+    margin-top: 20px;
+}

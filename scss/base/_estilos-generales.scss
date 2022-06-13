@@ -16,8 +16,8 @@ html {
 .whatsapp {
     position:fixed;
     width:60px;
-    bottom:40px;
-    right:40px;
+    bottom:20px;
+    right:20px;
     border-radius:50px;
     z-index:100;
   }
@@ -42,9 +42,14 @@ html {
   transform: translate(-50%, -50%);
   font-size: 100px;
 }
+.container-body {
+  padding-top: 80px ;
+  transition: all 2s;
+  position: relative;
+padding-bottom: 90px;
 
-// .img-secciones {
-//   -webkit-box-shadow: inset 6px 6px 34px -13px rgba(0,0,0,1);
-//   -moz-box-shadow: inset 6px 6px 34px -13px rgba(0,0,0,1);
-//   box-shadow: inset 6px 6px 34px -13px rgba(0,0,0,1);
-// }
+}
+.carrusel {
+  width: 100%;
+  height: auto;
+}

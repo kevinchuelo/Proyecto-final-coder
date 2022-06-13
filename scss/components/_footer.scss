@@ -3,10 +3,11 @@
 @import '../base/listas';
 @import '../base/variables';
 .pie-de-pagina {
-    display: nth ($display,6);
-    grid-area: footer;
     background: rgb(31, 48, 94);
     background: linear-gradient(180deg, rgba(31, 48, 94, 0.9475140397956058) 0%, rgba(255, 255, 255, 1) 95%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
     @include flex (flex, space-between);
     padding: 5px 5px;
@@ -15,7 +16,7 @@
 .logos {
     margin: 0.5rem 0;
     display: nth($display,5);
-    @include size (40px, 40px);
+    @include size (50px, 50px);
     padding: 0 4px;
     height: auto;
 }
