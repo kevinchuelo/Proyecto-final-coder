@@ -2,6 +2,7 @@
 @import '../base/mixin';
 @import '../base/listas';
 @import '../base/variables';
+@import '../base/estilos-generales';
 
 
 .container-background {
@@ -14,7 +15,7 @@
 .menu-principal, %flex-center {
     margin-top: 8rem;
     background-size: cover;
-    @include size (100%, 1000px);
+    @include size (100%, auto);
     display: nth($display, 3 );
 }
 .subtitulo, %flex-center  {

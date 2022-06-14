@@ -2,7 +2,7 @@
 @import '../base/mixin';
 @import '../base/listas';
 @import '../base/variables';
-@media (max-width:450px) {
+@media (min-width:0px) and (max-width:450px) {
     .encabezado{
 width: 100%;
     
@@ -54,12 +54,19 @@ width: 100%;
 .lista-fija {
     display: nth($display,1);
 }
-
-
+.caja-info {
+    width: 100%;
+}
+.titulo-secciones {
+    font-size: 5rem;
+  }
+.barra-buscar {
+    display: none;
+}
 }
 /* media query para tablets */
 
-@media (min-width:451px) and (max-width:700px) {
+@media (min-width:451px) and (max-width:990px) {
     .encabezado{
         width: 100%;
             
@@ -100,5 +107,13 @@ width: 100%;
         .lista-fija {
             display: nth($display,1);
         }
-
+        .caja-info {
+            width: 100%;
+        }
+        .titulo-secciones {
+            font-size: 6rem;
+          }
+          .barra-buscar {
+            display: none;
+        }
 }
